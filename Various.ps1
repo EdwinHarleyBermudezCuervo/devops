@@ -90,7 +90,41 @@ sudo apt install -y vim git bash-complation
 
 
 ## Commands git ##
-git config --global user.name "yourname"
-git config --global user.email "udemyprueba@udemy.com"
+git --version
 
-git confi --list
+git config --global user.name "ehbc"
+git config --global user.email "ehbc@ehbc.com"
+
+git config --list
+
+echo "# devops" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/EdwinHarleyBermudezCuervo/devops.git
+git push -u origin main
+
+git remote add origin https://github.com/EdwinHarleyBermudezCuervo/devops.git
+git branch -M main
+git push -u origin main
+
+
+#Generate token
+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
+
+git remote add origin https://github.com/EdwinHarleyBermudezCuervo/edwinharleybermudez.git
+git init
+git add .
+git branch
+git push -u origin master
+
+username:edwinbermudez91
+token: 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
+
+
+git branch feature/ehbc
+git checkout feature/ehbc
+git add .
+git commit -m "update command files"
+git push -u origin master
