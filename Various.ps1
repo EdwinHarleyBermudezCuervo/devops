@@ -124,3 +124,7 @@ token: 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
 
 
 git branch feature/ehbc
+git checkout feature/ehbc
+git add .
+git commit -m "update command files"
+git push -u origin master
