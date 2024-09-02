@@ -14,4 +14,4 @@ stages:
 jobs:
   - job: A1
 steps:
-  - bash echo "Hello World EHBC"
+  - bash: echo "Hello World EHBC"
