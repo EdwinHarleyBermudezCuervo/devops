@@ -9,5 +9,5 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-steps:
-  - bash: echo "Hello World EHBC"
+jobs:
+  - job: A1
